@@ -11,7 +11,7 @@ def continue_reg():
             print("You've indicated that you want to stop. Thanks and goodbye")
         except ValueError:
             pass
-        print("Invalid input, please enter yes or no")       
+        print("Invalid input, please enter yes or no")
 print("Welcome to the Python voter registration application.")
 continue_reg()
 fname = input("What is your first name?\n")
@@ -49,7 +49,7 @@ if age >= 18 and citizen.lower() == "yes":
             if state in state_arr:
                 break
         except ValueError:
-            pass     
+            pass
         print("Sorry, that was not a valid abbreviation. Please try again.")
         continue_reg()
 else:
