@@ -9,7 +9,7 @@ def continue_reg():
             if user_input.lower() == "yes":
                 break
             print("You've indicated that you want to stop. Thanks and goodbye")
-            exit()
+            sys.exit()
         except ValueError:
             pass
         print("Invalid input, please enter yes or no")
