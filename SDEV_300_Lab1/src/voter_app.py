@@ -37,6 +37,7 @@ while True:
         pass
     print("Invalid input, please enter yes or no")
     continue_reg()
+continue_reg()
 if age >= 18 and citizen.lower() == "yes":
     while True: # validate state/US territory
         try:
@@ -56,6 +57,7 @@ if age >= 18 and citizen.lower() == "yes":
 else:
     print("Sorry, you are not eligible to register to vote. Thanks and goodbye.\n")
     sys.exit(0)
+continue_reg()
 while True: # validate zip code, lowest zip code is 00501 and highest is 99950
     try:
         zipcode = input("What is your zipcode?\n")
